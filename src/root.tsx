@@ -9,7 +9,7 @@ import {
 import "./global.css";
 
 export default component$(() => {
-  useQwikRouter();
+  useQwikRouter({ viewTransition: true });
   const { url } = useLocation();
 
   /**
